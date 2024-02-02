@@ -1,0 +1,45 @@
+
+/* Responsividade */
+@media screen and (max-width: 950px) {
+    .Logo{
+     height: 25px;
+     width: 88px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .Container h1{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    
+    .Container h2{
+        font-size: 18px;
+        margin-top: 17px;
+        padding-left: 30px;
+        margin-bottom: 25px;
+    }
+
+    .Container{
+     align-items: flex-end;
+     background-position:  75% 40%;
+    }
+
+    footer{
+        display: none;
+       }
+
+    .RedesSociais li img{
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-left: 20px;
+      }
+
+      .Copyright {
+        display: none;
+       }
+   }
